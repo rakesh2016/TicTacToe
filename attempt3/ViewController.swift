@@ -27,10 +27,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        for imageView in images {
-            
-            imageView.userInteractionEnabled = true
-            imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "imageClicked:"))
+            for imageView in images {
+                
+                imageView.userInteractionEnabled = true
+                imageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: "imageClicked:"))
+            }
         }
     }
     
@@ -341,7 +342,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
 }
-

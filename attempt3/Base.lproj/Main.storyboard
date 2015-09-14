@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="lHq-AY-AOx">
             <objects>
-                <viewController id="3P2-xc-IWu" sceneMemberID="viewController">
+                <viewController id="3P2-xc-IWu" customClass="ViewController" customModule="attempt3" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UOg-LU-Ylu"/>
                         <viewControllerLayoutGuide type="bottom" id="Kmo-NU-4Tg"/>
@@ -47,60 +47,58 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9H-Tv-8Gx">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZUy-wK-ejg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Play against a Computer">
-                                            <attributes>
-                                                <color key="NSColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                <font key="NSFont" size="15" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="natural"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="118" y="345" width="165" height="30"/>
-                                </variation>
+                                <state key="normal" title="Play against a Computer"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="y3Q-Ga-k6h"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="VNb-f8-ydV"/>
                                 </connections>
                             </button>
-                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4iM-ac-AlK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sq-yS-G2C">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="148" y="405" width="105" height="30"/>
-                                </variation>
+                                <state key="normal" title="Play against a Human"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="2sQ-jg-io3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="0sq-yS-G2C" firstAttribute="top" secondItem="ZUy-wK-ejg" secondAttribute="bottom" constant="38" id="6fi-mu-JHU"/>
                             <constraint firstItem="Yu8-Tk-I4F" firstAttribute="centerX" secondItem="aXK-zh-1d5" secondAttribute="centerX" id="JGv-5h-MEe"/>
+                            <constraint firstItem="0sq-yS-G2C" firstAttribute="centerX" secondItem="aXK-zh-1d5" secondAttribute="centerX" id="LbY-g6-ktK"/>
                             <constraint firstItem="Yu8-Tk-I4F" firstAttribute="top" secondItem="UOg-LU-Ylu" secondAttribute="bottom" constant="45" id="OL1-ey-l9Z"/>
+                            <constraint firstItem="Kmo-NU-4Tg" firstAttribute="top" secondItem="0sq-yS-G2C" secondAttribute="bottom" constant="111" id="YIN-BY-cAy"/>
+                            <constraint firstItem="ZUy-wK-ejg" firstAttribute="centerX" secondItem="aXK-zh-1d5" secondAttribute="centerX" id="kQA-tN-7oP"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Yu8-Tk-I4F"/>
-                                <exclude reference="B9H-Tv-8Gx"/>
-                                <exclude reference="4iM-ac-AlK"/>
+                                <exclude reference="ZUy-wK-ejg"/>
+                                <exclude reference="0sq-yS-G2C"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="JGv-5h-MEe"/>
                                 <exclude reference="OL1-ey-l9Z"/>
+                                <exclude reference="kQA-tN-7oP"/>
+                                <exclude reference="6fi-mu-JHU"/>
+                                <exclude reference="LbY-g6-ktK"/>
+                                <exclude reference="YIN-BY-cAy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Yu8-Tk-I4F"/>
-                                <include reference="B9H-Tv-8Gx"/>
-                                <include reference="4iM-ac-AlK"/>
+                                <include reference="ZUy-wK-ejg"/>
+                                <include reference="0sq-yS-G2C"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="JGv-5h-MEe"/>
                                 <include reference="OL1-ey-l9Z"/>
+                                <include reference="kQA-tN-7oP"/>
+                                <include reference="6fi-mu-JHU"/>
+                                <include reference="LbY-g6-ktK"/>
+                                <include reference="YIN-BY-cAy"/>
                             </mask>
                         </variation>
                     </view>
@@ -459,4 +457,7 @@
     <resources>
         <image name="grid" width="320" height="568"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="VNb-f8-ydV"/>
+    </inferredMetricsTieBreakers>
 </document>
