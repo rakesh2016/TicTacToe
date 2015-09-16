@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584C018D1BA5EA140053C7D8 /* NameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C018C1BA5EA140053C7D8 /* NameScreen.swift */; };
+		584C01911BA5EC3E0053C7D8 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584C01901BA5EC3E0053C7D8 /* Help.swift */; };
+		584E34CD1BA66F3900C7D25E /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584E34CC1BA66F3900C7D25E /* Instructions.swift */; };
+		589A91841BA6171C00DAEB22 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589A91831BA6171C00DAEB22 /* Scores.swift */; };
 		58AF736A1BA47A000044D605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF73691BA47A000044D605 /* AppDelegate.swift */; };
 		58AF736C1BA47A000044D605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF736B1BA47A000044D605 /* ViewController.swift */; };
 		58AF736F1BA47A000044D605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AF736D1BA47A000044D605 /* Main.storyboard */; };
@@ -16,7 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		58AF73661BA47A000044D605 /* attempt3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = attempt3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		584C018C1BA5EA140053C7D8 /* NameScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameScreen.swift; sourceTree = "<group>"; };
+		584C01901BA5EC3E0053C7D8 /* Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		584E34CC1BA66F3900C7D25E /* Instructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		589A91831BA6171C00DAEB22 /* Scores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		58AF73661BA47A000044D605 /* Michelle_Emamdie_TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Michelle_Emamdie_TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AF73691BA47A000044D605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58AF736B1BA47A000044D605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58AF736E1BA47A000044D605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +48,7 @@
 		58AF735D1BA47A000044D605 = {
 			isa = PBXGroup;
 			children = (
+				584C018C1BA5EA140053C7D8 /* NameScreen.swift */,
 				58BE94A41BA5AF7B00E2B417 /* InitialView.swift */,
 				58AF73681BA47A000044D605 /* attempt3 */,
 				58AF73671BA47A000044D605 /* Products */,
@@ -49,7 +58,7 @@
 		58AF73671BA47A000044D605 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				58AF73661BA47A000044D605 /* attempt3.app */,
+				58AF73661BA47A000044D605 /* Michelle_Emamdie_TicTacToe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +69,9 @@
 				58AF73691BA47A000044D605 /* AppDelegate.swift */,
 				58AF736B1BA47A000044D605 /* ViewController.swift */,
 				58AF736D1BA47A000044D605 /* Main.storyboard */,
+				584E34CC1BA66F3900C7D25E /* Instructions.swift */,
+				589A91831BA6171C00DAEB22 /* Scores.swift */,
+				584C01901BA5EC3E0053C7D8 /* Help.swift */,
 				58AF73701BA47A000044D605 /* Assets.xcassets */,
 				58AF73721BA47A000044D605 /* LaunchScreen.storyboard */,
 				58AF73751BA47A000044D605 /* Info.plist */,
@@ -70,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		58AF73651BA47A000044D605 /* attempt3 */ = {
+		58AF73651BA47A000044D605 /* Michelle_Emamdie_TicTacToe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 58AF73781BA47A000044D605 /* Build configuration list for PBXNativeTarget "attempt3" */;
+			buildConfigurationList = 58AF73781BA47A000044D605 /* Build configuration list for PBXNativeTarget "Michelle_Emamdie_TicTacToe" */;
 			buildPhases = (
 				58AF73621BA47A000044D605 /* Sources */,
 				58AF73631BA47A000044D605 /* Frameworks */,
@@ -82,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = attempt3;
+			name = Michelle_Emamdie_TicTacToe;
 			productName = attempt3;
-			productReference = 58AF73661BA47A000044D605 /* attempt3.app */;
+			productReference = 58AF73661BA47A000044D605 /* Michelle_Emamdie_TicTacToe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,10 +110,11 @@
 				TargetAttributes = {
 					58AF73651BA47A000044D605 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 2N354YP6UJ;
 					};
 				};
 			};
-			buildConfigurationList = 58AF73611BA47A000044D605 /* Build configuration list for PBXProject "attempt3" */;
+			buildConfigurationList = 58AF73611BA47A000044D605 /* Build configuration list for PBXProject "Michelle_Emamdie_TicTacToe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				58AF73651BA47A000044D605 /* attempt3 */,
+				58AF73651BA47A000044D605 /* Michelle_Emamdie_TicTacToe */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584E34CD1BA66F3900C7D25E /* Instructions.swift in Sources */,
+				584C018D1BA5EA140053C7D8 /* NameScreen.swift in Sources */,
 				58BE94A51BA5AF7B00E2B417 /* InitialView.swift in Sources */,
+				584C01911BA5EC3E0053C7D8 /* Help.swift in Sources */,
+				589A91841BA6171C00DAEB22 /* Scores.swift in Sources */,
 				58AF736C1BA47A000044D605 /* ViewController.swift in Sources */,
 				58AF736A1BA47A000044D605 /* AppDelegate.swift in Sources */,
 			);
@@ -252,10 +269,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = attempt3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ufl.CIS4930.memamdie.attempt3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Michelle_Emamdie_TicTacToe;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -263,17 +284,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = attempt3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.ufl.CIS4930.memamdie.attempt3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Michelle_Emamdie_TicTacToe;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58AF73611BA47A000044D605 /* Build configuration list for PBXProject "attempt3" */ = {
+		58AF73611BA47A000044D605 /* Build configuration list for PBXProject "Michelle_Emamdie_TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58AF73761BA47A000044D605 /* Debug */,
@@ -282,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58AF73781BA47A000044D605 /* Build configuration list for PBXNativeTarget "attempt3" */ = {
+		58AF73781BA47A000044D605 /* Build configuration list for PBXNativeTarget "Michelle_Emamdie_TicTacToe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58AF73791BA47A000044D605 /* Debug */,
