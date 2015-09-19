@@ -8,9 +8,8 @@
 
 import UIKit
 
-var scores = [String: Int]()
 var typeList = Array(scores.keys)
-  
+
 class Scores: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()

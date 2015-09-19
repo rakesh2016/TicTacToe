@@ -10,7 +10,8 @@ import UIKit
 
 var player1Name = ""
 var player2Name = ""
-
+var scores = [String: Int]()
+var option = 2
 class NameScreen: UIViewController {
 
     @IBOutlet var name1: UITextField!
@@ -20,18 +21,11 @@ class NameScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if option == 1 {
-            player2Label.hidden = true
-            name2.hidden = true
-        }
         // Do any additional setup after loading the view.
     }
  
     @IBAction func storeName1(sender: AnyObject) {
         player1Name = name1.text!
-        if option == 1 {
-            nextButton.enabled = true
-        }
     }
     
     @IBAction func storeName2(sender: AnyObject) {
